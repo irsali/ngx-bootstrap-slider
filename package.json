@@ -1,5 +1,5 @@
 {
-  "name": "@irshadali/ngx-bootstrap-slider",
+  "name": "@irshadali/ngx-bootstrap-slider-app",
   "version": "0.3.2",
   "scripts": {
     "ng": "ng",
