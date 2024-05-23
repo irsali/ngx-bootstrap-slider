@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { NgxBootstrapSliderComponent } from './ngx-bootstrap-slider.component';
 
@@ -6,7 +6,7 @@ describe('NgxBootstrapSliderComponent', () => {
   let component: NgxBootstrapSliderComponent;
   let fixture: ComponentFixture<NgxBootstrapSliderComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ NgxBootstrapSliderComponent ]
     })
